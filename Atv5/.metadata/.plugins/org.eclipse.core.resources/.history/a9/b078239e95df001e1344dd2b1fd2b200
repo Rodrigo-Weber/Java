@@ -1,0 +1,12 @@
+package entities;
+
+public class Account {
+
+	private String name;
+	private int accountNumber;
+	private double valueAccount;
+
+
+	
+
+}

@@ -1,0 +1,42 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.employee;
+
+public class Program {
+	
+//	Make a program to read an employee's data (name, gross salary and tax).
+//	Then, show the employee's data (name and net salary).
+//	Then, increase the employee's salary based on a given percentage 
+//	(only the gross salary is affected by the percentage) 
+//	and show the employee's data again.
+//	Use the class below
+//	[Employee]
+//	- Name String
+//	- GrossSalary double
+//	- Tax double
+//	+ NetSalary() double
+//	+ IncreaseSalary(oercetage double) void
+
+	public static void main(String[] args) {
+	
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		employee data = new employee();
+		
+		
+		System.out.printf("Name: ");
+		data.name = sc.nextLine();
+		System.out.printf("Gross salary: ");
+		data.grossSalary = sc.nextDouble();
+		System.out.printf("Tax: ");
+		data.tax = sc.nextDouble();
+		
+		System.out.println("Employee: "+data.name + ", $" + data.netSalary());
+		
+	}
+
+}

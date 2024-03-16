@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\rodri\OneDrive\Documentos\Curso\Java\Atv4\.metadata\.plugins\org.eclipse.jdt.core
+2745512580.index
+1243754372.index
+1865797976.index

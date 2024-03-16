@@ -1,0 +1,13 @@
+package entities;
+
+public class student {
+	public double grades1;
+	public double grades2;
+	public double grades3;
+	public String name;
+	
+	public double finalGrade() {
+		return grades1 + grades2 + grades3;
+	}
+}
+

@@ -1,0 +1,47 @@
+package entities;
+
+public class bank {
+	
+	private String name;
+	private int accountNumber;
+	private double valueAccount;
+	
+	public bank() {
+	}
+	
+	public bank(String name, int accountNumber, double valueAccount) {
+		this.name = name;
+		this.accountNumber = accountNumber;
+		this.valueAccount = valueAccount;
+	}
+	public bank(String name, int accountNumber) {
+		this.name = name;
+		this.accountNumber = accountNumber;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAccountNumber() {
+		return accountNumber;
+	}
+
+	public void setAccountNumber(int accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+
+	public double getValueAccount() {
+		return valueAccount;
+	}
+
+	public void setValueAccount(double valueAccount) {
+		this.valueAccount = valueAccount;
+	}
+	
+	
+}

@@ -1,0 +1,12 @@
+package entities;
+
+public class rectangle {
+	
+	public double width; 
+	public double height;
+	
+	public double area() {
+		double area;
+		return area = width * height;
+	}
+}

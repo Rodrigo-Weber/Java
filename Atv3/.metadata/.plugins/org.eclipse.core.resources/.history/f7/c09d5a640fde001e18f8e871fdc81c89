@@ -1,0 +1,8 @@
+package entities;
+
+public class student {
+	public double grades1;
+	public double grades2;
+	public double grades3;
+	public String name;
+}

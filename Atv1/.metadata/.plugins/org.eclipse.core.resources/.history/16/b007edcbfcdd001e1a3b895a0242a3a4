@@ -1,0 +1,21 @@
+package application;
+
+public class Program {
+	
+	
+//	Make a program to read the width and height values ​​of a rectangle.
+//	Then, show on the screen the value of its area, perimeter and diagonal.
+//	Use a class as shown below.
+//	 [Rectangle] 
+//	 - double Width e Height
+//	 + Area() double
+//	 + Perimeter() double
+//	 + Diagonal() double
+	 
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package application;
+
+public class Program {
+	
+	
+//	 Fazer um programa para ler os valores da largura e altura de um retangulo.
+//	 Em seguida, mostrar na tela o valor de sua area, perimetro e diagonal. 
+//	 Usar uma classe com mostrado a seguir. 
+//	 [Rectangle] 
+//	 - double Width e Height
+//	 + Area() double
+//	 + Perimeter() double
+//	 + Diagonal() double
+	 
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

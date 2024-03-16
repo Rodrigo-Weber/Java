@@ -1,0 +1,40 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.rectangle;
+
+public class Program {
+	
+	
+//	Make a program to read the width and height values ​​of a rectangle.
+//	Then, show on the screen the value of its area, perimeter and diagonal.
+//	Use a class as shown below.
+//	 [Rectangle] 
+//	 - double Width e Height
+//	 + Area() double
+//	 + Perimeter() double
+//	 + Diagonal() double
+	 
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		rectangle base, altura, area;
+		base = new rectangle();
+		altura = new rectangle();
+		area = new rectangle();
+		
+		System.out.print("Enter the widht of retangle: ");
+		base.width = sc.nextDouble();
+		System.out.print("Enter the height of retangle: ");
+		altura.height = sc.nextDouble();
+		
+		System.out.println(area.area());
+
+	}
+
+}
